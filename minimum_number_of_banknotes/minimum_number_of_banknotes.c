@@ -19,7 +19,7 @@ int main() {
 	amount = amount-(total*100); //when you drop it away the multiples of 100 you can calculate how many 50 banknote left from rest of them 
 					//and the the result is will be 50, because when you multiply 50 with a random number, the result is equals to multiples of 100
 	
-	total = (int)amount/50;  //50 mod 50 is equals to 1
+	total = (int)amount/50;  //50 divide by 50 is equals to 1
 	
 	printf("\n %d Banknote(s) of 50 \n", total);
 	
