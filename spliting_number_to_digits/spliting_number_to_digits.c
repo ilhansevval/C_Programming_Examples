@@ -1,6 +1,8 @@
 #include <stdio.h>
 #define size 5
 
+//Write a program that assigns the digits of the maximum 5-digit number to an array and prints it to the screen.
+
 int main()
 {
     int var,arr[size],digit,i=0,j;
