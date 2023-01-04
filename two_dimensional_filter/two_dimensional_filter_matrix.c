@@ -10,7 +10,7 @@ main(){
 		printf("Please enter N value of matrix MxN\n");
 		scanf("%d", &n);
 		if(m<5 || n<5){
-			printf("The value of M or N cannot be less than 5\n");
+			printf("\nThe value of M or N cannot be less than 5\n\n");
 		}
 	}
 	while(m < 5);
@@ -41,7 +41,7 @@ main(){
 	int t;
 	for(int s=0; s < 3; s++){
 		for(int k=0; k<3; k++){
-			printf("Please enter an intager to v[%d][%d]; ", s,k);
+			printf("Please enter an integer to v[%d][%d]; ", s,k);
 			scanf("%d",&t);
 			v[s][k]=t;
 		}
@@ -81,7 +81,7 @@ main(){
 	int r;
 	for(int sq=0; sq < 2; sq++){
 		for(int sk=0; sk<2; sk++){
-			printf("Please enter an intager to tenpt[%d][%d]; ", sq,sk);
+			printf("Please enter an integer to tenpt[%d][%d]; ", sq,sk);
 			scanf("%d",&r);
 			tenpt[sq][sk]=r;
 		}
